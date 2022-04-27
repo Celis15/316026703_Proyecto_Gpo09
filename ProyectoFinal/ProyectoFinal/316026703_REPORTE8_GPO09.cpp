@@ -106,6 +106,7 @@ int main()
     // Load models
 
     Model armchair((char*)"Models/Armchair/armchair.obj");
+    Model Lampara((char*)"Models/Lampara/Lampara.obj");
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 100.0f);
 
     float vertices[] = {
@@ -241,7 +242,7 @@ int main()
 
         //model = glm::mat4(1);
         glBindVertexArray(VAO);
-        armchair.Draw(lightingShader);
+        Lampara.Draw(lightingShader);
   
 
        
