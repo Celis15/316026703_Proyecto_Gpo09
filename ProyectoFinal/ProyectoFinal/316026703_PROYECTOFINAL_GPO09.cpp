@@ -111,7 +111,10 @@ int main()
     Model Lampara((char*)"Models/Lampara/Lampara.obj");
     Model SueloExt((char*)"Models/SueloExterior/SueloTierra.obj");
     Model TV((char*)"Models/TV/TV/TV.obj");
-    glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 100.0f);
+    Model Fachada((char*)"Models/Fachada/Fachada.obj");
+    Model PuertaD((char*)"Models/Fachada/PuertaDelantera.obj");
+    Model PuertaT((char*)"Models/Fachada/PuertaTrasera.obj");
+    glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 400.0f);
 
     float vertices[] = {
       -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
@@ -225,8 +228,8 @@ int main()
 
 
         // Set lights properties
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.ambient"), 0.4f, 0.4f, 0.4f);
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.diffuse"), 0.5f, 0.5f, 0.5f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.ambient"), 1.0f, 1.0f, 1.0f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "light.diffuse"), 1.0f, 1.0f, 1.0f);
         glUniform3f(glGetUniformLocation(lightingShader.Program, "light.specular"), 1.0f, 1.0f, 1.0f);
 
 
@@ -236,10 +239,10 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
         // Set material properties
-        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.ambient"), 0.1f, 0.1f, 0.1f);
+        glUniform3f(glGetUniformLocation(lightingShader.Program, "material.ambient"), 1.0f, 1.0f, 1.0f);
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.diffuse"), 1.0f, 1.0f, 1.0f);
         glUniform3f(glGetUniformLocation(lightingShader.Program, "material.specular"), 1.0f, 1.0f, 1.0f);
-        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 10.0f);
+        glUniform1f(glGetUniformLocation(lightingShader.Program, "material.shininess"), 5.0f);
 
         glm::mat4 model(1);
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
@@ -259,31 +262,57 @@ int main()
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
         model = glm::mat4(1.0f);
         //model = glm::translate(model, glm::vec3(lightPos.x + movelightPosx, lightPos.y + movelightPosy, lightPos.z + movelightPosz));
-        //model = glm::scale(model, glm::vec3(0.02f));
+        model = glm::scale(model, glm::vec3(5.0f));
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-
-        armchair.Draw(lampshader);
+        SueloExt.Draw(lampshader);
+        //Fachada.Draw(lampshader);
+        //armchair.Draw(lampshader);
         glBindVertexArray(0);
 
         model = glm::mat4(1.0f);
-        model = glm::translate(model, glm::vec3(4.0f,0.0f,0.0f));
-        //model = glm::scale(model, glm::vec3(0.02f));
-        glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        glBindVertexArray(VAO);
-
-        Lampara.Draw(lampshader);
-        glBindVertexArray(0);
-
+            model = glm::translate(model, glm::vec3(4.0f,0.0f,0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Fachada.Draw(lampshader);
+            glBindVertexArray(0);
 
         model = glm::mat4(1.0f);
-        model = glm::translate(model, glm::vec3(0.0f, 3.0f, 5.0f));
-        //model = glm::scale(model, glm::vec3(0.02f));
-        glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        glBindVertexArray(VAO);
+            model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            PuertaD.Draw(lampshader);
+            glBindVertexArray(0);
 
-        TV.Draw(lampshader);
-        glBindVertexArray(0);
+        model = glm::mat4(1.0f);
+            model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            PuertaT.Draw(lampshader);
+            glBindVertexArray(0);
+
+
+        //model = glm::mat4(1.0f);
+        //model = glm::translate(model, glm::vec3(4.0f,0.0f,0.0f));
+        ////model = glm::scale(model, glm::vec3(0.02f));
+        //glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //glBindVertexArray(VAO);
+
+        //Lampara.Draw(lampshader);
+        //glBindVertexArray(0);
+
+
+        //model = glm::mat4(1.0f);
+        //model = glm::translate(model, glm::vec3(0.0f, 3.0f, 5.0f));
+        ////model = glm::scale(model, glm::vec3(0.02f));
+        //glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //glBindVertexArray(VAO);
+
+        //TV.Draw(lampshader);
+        //glBindVertexArray(0);
         // Swap the buffers
         glfwSwapBuffers(window);
     }
