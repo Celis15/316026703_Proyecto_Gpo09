@@ -1,0 +1,392 @@
+newmtl Molino:blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalNegro.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl Molino:blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalAzul2.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl Molino:blinn7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalMolino2.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl barrel:phong1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalBarril.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl barrel:standardSurface1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl blinn3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaAmarilla.jpg
+Ni 1.00
+newmtl lambert10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaParedes.jpg
+Ni 1.00
+newmtl lambert11SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaBarril.jpg
+Ni 1.00
+newmtl lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaCasa.jpg
+Ni 1.00
+newmtl lambert19SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja2.png
+Ni 1.00
+newmtl pasted__blinn3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+newmtl pasted__blinn3SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG4
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG6
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG7
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG8
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG9
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG10
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG11
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG12
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG13
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG14
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG15
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG16
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG17
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG18
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG19
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG20
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__blinn3SG21
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaTablaMaderaQuemada.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaPuertas2.jpg
+Ni 1.00
+newmtl pasted__lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.75 0.75 0.75
+map_Kd TexturaMalla.jpg
+Ni 1.00
+newmtl pasted__lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaManija.jpg
+Ni 1.00
+newmtl pasted__pasted__blinn1SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__pasted__blinn1SG5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__pasted__lambert2SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaPuertas2.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.57 0.57 0.57
+map_Kd TexturaMalla.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert3SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.75 0.75 0.75
+map_Kd TexturaMalla.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaManija.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert4SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaManija.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__blinn1SG9
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__pasted__pasted__blinn1SG11
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja2.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__blinn1SG12
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__pasted__pasted__blinn1SG13
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
+Ni 1.00
+newmtl pasted__pasted__pasted__lambert3SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 0.75 0.75 0.75
+map_Kd TexturaMalla.jpg
+Ni 1.00
+newmtl pasted__pasted__pasted__lambert4SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaManija.jpg
+Ni 1.00
+newmtl phongE1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalTubo.png
+Ni 1.00
+Ks 0.50 0.50 0.50

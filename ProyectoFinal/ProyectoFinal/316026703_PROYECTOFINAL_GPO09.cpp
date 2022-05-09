@@ -114,6 +114,9 @@ int main()
     Model Fachada((char*)"Models/Fachada/Fachada.obj");
     Model PuertaD((char*)"Models/Fachada/PuertaDelantera.obj");
     Model PuertaT((char*)"Models/Fachada/PuertaTrasera.obj");
+    Model Tubo((char*)"Models/Fachada/TuboFachada.obj");
+    Model Molino((char*)"Models/Molino/Molino.obj");
+    Model Escalera((char*)"Models/Escalera/Escalera.obj");
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 400.0f);
 
     float vertices[] = {
@@ -255,14 +258,14 @@ int main()
   
        
         glBindVertexArray(0);
-
+         //Dibujamos el Suelo del exterior
 
         lampshader.Use();
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
         model = glm::mat4(1.0f);
         //model = glm::translate(model, glm::vec3(lightPos.x + movelightPosx, lightPos.y + movelightPosy, lightPos.z + movelightPosz));
-        model = glm::scale(model, glm::vec3(5.0f));
+        model = glm::scale(model, glm::vec3(20.0,0.0f,20.0f));
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
         SueloExt.Draw(lampshader);
@@ -293,6 +296,31 @@ int main()
             glBindVertexArray(VAO);
             PuertaT.Draw(lampshader);
             glBindVertexArray(0);
+
+        model = glm::mat4(1.0f);
+            model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Tubo.Draw(lampshader);
+            glBindVertexArray(0);
+
+        model = glm::mat4(1.0f);
+            model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Molino.Draw(lampshader);
+            glBindVertexArray(0);
+
+        model = glm::mat4(1.0f);
+            model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Escalera.Draw(lampshader);
+            glBindVertexArray(0);
+
 
 
         //model = glm::mat4(1.0f);

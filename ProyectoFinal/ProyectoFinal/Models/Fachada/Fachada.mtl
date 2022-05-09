@@ -1,3 +1,43 @@
+newmtl Escalera:initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Escalera:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaPapelTapiz_Albedo.png
+Ni 1.00
+newmtl Molino:blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalNegro.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl Molino:blinn6SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalAzul2.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
+newmtl Molino:blinn7SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalMolino2.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 0.06
 newmtl barrel:phong1SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -46,13 +86,6 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaBarril.jpg
-Ni 1.00
-newmtl lambert12SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd TexturaMaderaLlanta.jpg
 Ni 1.00
 newmtl lambert14SG
 illum 4
@@ -245,9 +278,10 @@ Ni 1.00
 Ks 0.50 0.50 0.50
 newmtl pasted__lambert2SG
 illum 4
-Kd 0.50 0.50 0.50
+Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja4.png
 Ni 1.00
 newmtl pasted__lambert2SG1
 illum 4
@@ -269,6 +303,13 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMAderaManija.jpg
+Ni 1.00
+newmtl pasted__lambert14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.36 0.36 0.36
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaCasa.jpg
 Ni 1.00
 newmtl pasted__pasted__blinn1SG2
 illum 4
@@ -361,3 +402,11 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMAderaManija.jpg
 Ni 1.00
+newmtl phongE1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMetalTubo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
