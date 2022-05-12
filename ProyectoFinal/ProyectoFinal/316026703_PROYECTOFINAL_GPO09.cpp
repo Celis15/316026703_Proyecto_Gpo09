@@ -166,6 +166,7 @@ int main()
     Model Telefono((char*)"Models/Telefono/Telefono.obj");
     Model UFO((char*)"Models/UFO/UFO.obj");
     Model Ventanas((char*)"Models/Ventanas/Ventanas.obj");
+
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 400.0f);
 
     float vertices[] = {
@@ -273,7 +274,7 @@ int main()
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         
-
+        //Empezamos a usar el lightinShader
         lightingShader.Use();
         GLint lightPosLoc = glGetUniformLocation(lightingShader.Program, "light.position");
         GLint viewPosLoc = glGetUniformLocation(lightingShader.Program, "viewPos");
@@ -318,7 +319,7 @@ int main()
         //Dibujamos todos los elementos de la fachada
         view = camera.GetViewMatrix();
   
-
+        //Empezamos a usar el lampshader para la carga de los objetos
         lampshader.Use();
         modelLoc = glGetUniformLocation(lampshader.Program, "model");
         viewLoc = glGetUniformLocation(lampshader.Program, "view");
@@ -511,10 +512,8 @@ int main()
             Ventanas.Draw(lampshader);
             glBindVertexArray(0);
 
+
            
-
-            
-
 
 
 
@@ -605,9 +604,9 @@ void DoMovement()
 
     if (Movimiento) {
         rotMecedora += (Activo) ? -0.1f : 0.1f;
-        if (rotMecedora > 21.0f)  // Aleteo izquierdo
+        if (rotMecedora > 21.0f) //Movimiento hacia atras
             Activo = true;
-        if (rotMecedora < 0.0f) // Aleteo derecho
+        if (rotMecedora < 0.0f) //Movimiento hacia adelante
             Activo = false;
     }
 
