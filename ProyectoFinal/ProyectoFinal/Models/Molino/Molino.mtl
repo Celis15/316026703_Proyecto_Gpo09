@@ -38,7 +38,7 @@ map_Kd TexturaMetalMolino2.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
-newmtl MolinoCirculo:blinn4SG
+newmtl MolinoCirculo1:blinn4SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -47,7 +47,7 @@ map_Kd TexturaMetalNegro.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
-newmtl MolinoCirculo:blinn6SG
+newmtl MolinoCirculo1:blinn6SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -56,12 +56,32 @@ map_Kd TexturaMetalAzul2.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
-newmtl MolinoCirculo:blinn7SG
+newmtl UFO:UFO_texture
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd TexturaMetalMolino2.jpg
+map_Kd ufo_diffuse.png
+map_Ka ufo_diffuse.png
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl UFO:UFO_texture2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ufo_diffuse2.png
+map_Ka ufo_diffuse2.png
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl UFO:phongE1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd ufo_diffuse_glow.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
@@ -539,6 +559,12 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd TexturaMetalTubo.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl phongE2SG
+illum 4
+Kd 0.43 0.78 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.50 0.50 0.50

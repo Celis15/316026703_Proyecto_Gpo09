@@ -166,7 +166,13 @@ int main()
     Model Telefono((char*)"Models/Telefono/Telefono.obj");
     Model UFO((char*)"Models/UFO/UFO.obj");
     Model Ventanas((char*)"Models/Ventanas/Ventanas.obj");
-
+    Model Estufa((char*)"Models/Estufa/Estufa.obj");
+    Model Alacena((char*)"Models/Alacena/Alacena.obj");
+    Model Comedor((char*)"Models/Comedor/Comedor.obj");
+    Model Sillas((char*)"Models/Comedor/Sillas.obj");
+    Model LamparaTecho((char*)"Models/LamparaTecho/LamparaTecho.obj");
+    Model Sartenes((char*)"Models/Sartenes/Sartenes.obj");
+    Model Tarja((char*)"Models/Tarja/Tarja.obj");
     glm::mat4 projection = glm::perspective(camera.GetZoom(), (float)SCREEN_WIDTH / (float)SCREEN_HEIGHT, 0.1f, 400.0f);
 
     float vertices[] = {
@@ -369,14 +375,14 @@ int main()
             PuertaD.Draw(lampshader);
             glBindVertexArray(0);
 
-            //Para la puerta trasera 
-            model = glm::mat4(1.0f);
-            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
-            //model = glm::scale(model, glm::vec3(0.02f));
-            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-            glBindVertexArray(VAO);
-            PuertaT.Draw(lampshader);
-            glBindVertexArray(0);
+            ////Para la puerta trasera 
+            //model = glm::mat4(1.0f);
+            ////model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            ////model = glm::scale(model, glm::vec3(0.02f));
+            //glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            //glBindVertexArray(VAO);
+            //PuertaT.Draw(lampshader);
+            //glBindVertexArray(0);
 
             //Para el tubo de la fachada 
             
@@ -400,7 +406,7 @@ int main()
 
                 //Para la animacion del molino
                 model = glm::mat4(1.0f);
-                model = glm::translate(model, glm::vec3(74.645f, 85.051f, -82.005f));
+                model = glm::translate(model, glm::vec3(140.645f, 85.051f, -82.005f));
                 model = glm::rotate(model, glm::radians(rotMolino), glm::vec3(0.0f, 0.0f, 1.0f));
                 //model = glm::scale(model, glm::vec3(0.02f));
                 glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
@@ -502,6 +508,70 @@ int main()
             glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
             glBindVertexArray(VAO);
             Telefono.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para la estufa 
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Estufa.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para la alacena
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Alacena.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para el comedor 
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Comedor.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para las sillas 
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Sillas.Draw(lampshader);
+            glBindVertexArray(0);
+             
+
+            //Para la lampara del techo
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            LamparaTecho.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para la tarja 
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Tarja.Draw(lampshader);
+            glBindVertexArray(0);
+
+            //Para los sartenes
+            model = glm::mat4(1);
+            //model = glm::translate(model, glm::vec3(4.0f, 0.0f, 0.0f));
+            //model = glm::scale(model, glm::vec3(0.02f));
+            glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+            glBindVertexArray(VAO);
+            Sartenes.Draw(lampshader);
             glBindVertexArray(0);
 
             model = glm::mat4(1);

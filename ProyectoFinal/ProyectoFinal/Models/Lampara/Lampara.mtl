@@ -60,6 +60,13 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMaderaBanco.png
 Ni 1.00
+newmtl Escalera2:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaPapelTapiz_Albedo.png
+Ni 1.00
 newmtl Lampara:initialShadingGroup
 illum 4
 Kd 0.50 0.50 0.50
@@ -252,4 +259,11 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMaderaCasa.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaAmarilla.jpg
 Ni 1.00
