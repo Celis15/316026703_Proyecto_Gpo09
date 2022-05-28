@@ -340,6 +340,14 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaTablaMaderaQuemada.jpg
 Ni 1.00
+newmtl pasted__blinn5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl pasted__lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -689,6 +697,30 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaTablaMaderaQuemada.jpg
 Ni 1.00
+newmtl pasted__pasted__blinn5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__blinn5SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__blinn5SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl pasted__pasted__lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -836,6 +868,22 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMAderaNaranja4.png
 Ni 1.00
+newmtl pasted__pasted__pasted__blinn5SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl pasted__pasted__pasted__blinn5SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaVentanasAzul.png
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl pasted__pasted__pasted__lambert2SG8
 illum 4
 Kd 0.00 0.00 0.00
@@ -881,13 +929,6 @@ Ni 1.00
 newmtl phongE1SG
 illum 4
 Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.50 0.50 0.50
-newmtl phongE2SG
-illum 4
-Kd 0.43 0.78 1.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00

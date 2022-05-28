@@ -17,12 +17,14 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd sofa_red_texture.png
 Ni 1.00
 newmtl Armchair:lambert3SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd madera_texture.jpg.png
 Ni 1.00
 newmtl Armchair:lambert4SG
 illum 4
@@ -35,18 +37,21 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaBlancaSillon.png
 Ni 1.00
 newmtl Armchair:pasted__lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd sofa_red_texture.jpg.png
 Ni 1.00
 newmtl Armchair:pasted__lambert2SG2
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd sofa_red_texture.jpg.png
 Ni 1.00
 newmtl Banco:lambert2SG
 illum 4
@@ -54,6 +59,13 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMaderaBanco.png
+Ni 1.00
+newmtl Escalera2:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaPapelTapiz_Albedo.png
 Ni 1.00
 newmtl Lampara:initialShadingGroup
 illum 4
@@ -66,18 +78,21 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaMAderaNaranja2.png
 Ni 1.00
 newmtl Lampara:pasted__lambert2SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaNaranja3.png
 Ni 1.00
 newmtl Lampara:pasted__phong2SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 0.85 0.85 0.85
+map_Kd TexturaFoco.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
@@ -86,6 +101,7 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 0.85 0.85 0.85
+map_Kd TexturaFoco.jpg
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
@@ -94,10 +110,18 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaTelaLampara.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 18.00
 newmtl Mecedora1:blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaMecedora.png
+Ni 1.00
+newmtl Mecedora3:blinn2SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
@@ -111,14 +135,6 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd grandfatherclock_uv.bmp
 Ni 1.00
-newmtl TV:blinn1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.50 0.50 0.50
-Ns 0.06
 newmtl TV:initialShadingGroup
 illum 4
 Kd 0.00 0.00 0.00
@@ -130,21 +146,23 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd television_rubin_Albedo.png
 Ni 1.00
 newmtl TV:lambert7SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaNaranja3.png
 Ni 1.00
-newmtl TV:phong1SG
+newmtl TV:phongE1SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
+map_Kd TexturaMetalNegro.png
 Ni 1.00
 Ks 0.50 0.50 0.50
-Ns 18.00
 newmtl Telefono:phongE1SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -172,6 +190,14 @@ map_Kd TexturaMetalNegro.png
 Ni 1.00
 Ks 0.50 0.50 0.50
 Ns 0.06
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaFoco.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
 newmtl initialShadingGroup
 illum 4
 Kd 0.50 0.50 0.50
@@ -233,4 +259,11 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd TexturaMaderaCasa.jpg
+Ni 1.00
+newmtl pasted__pasted__lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd TexturaMaderaAmarilla.jpg
 Ni 1.00
